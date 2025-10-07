@@ -11,6 +11,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.beworldwebservices.com">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="Untitled design.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Untitled design.png">
+    <link rel="apple-touch-icon" href="Untitled design.png">
+    <link rel="shortcut icon" href="Untitled design.png">
+    
     <style>
         :root {
             --primary-blue: #1976D2;
@@ -271,20 +277,20 @@
         
         .apps-carousel-container::before {
             left: 0;
-            background: linear-gradient(to right, var(--bg-white), transparent);
+            background: linear-gradient(to right, var(--bg-white) 0%, rgba(255,255,255,0.8) 20%, rgba(255,255,255,0.4) 40%, transparent 60%);
         }
         
         .apps-carousel-container::after {
             right: 0;
-            background: linear-gradient(to left, var(--bg-white), transparent);
+            background: linear-gradient(to left, var(--bg-white) 0%, rgba(255,255,255,0.8) 20%, rgba(255,255,255,0.4) 40%, transparent 60%);
         }
         
         [data-theme="dark"] .apps-carousel-container::before {
-            background: linear-gradient(to right, #121212, transparent);
+            background: linear-gradient(to right, #121212 0%, rgba(18,18,18,0.8) 20%, rgba(18,18,18,0.4) 40%, transparent 60%);
         }
         
         [data-theme="dark"] .apps-carousel-container::after {
-            background: linear-gradient(to left, #121212, transparent);
+            background: linear-gradient(to left, #121212 0%, rgba(18,18,18,0.8) 20%, rgba(18,18,18,0.4) 40%, transparent 60%);
         }
         
         .apps-carousel {
@@ -774,7 +780,7 @@
                 <div class="apps-carousel">
                     <!-- First set of items -->
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://mybeworld.com/', '_blank')">
                             <img src="logo.png" alt="BeWorld App Icon">
                         </div>
                         <div class="carousel-text">
@@ -784,7 +790,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://mytelworld.com/', '_blank')">
                             <img src="Component 22 – 1.png" alt="TelWorld App Icon">
                         </div>
                         <div class="carousel-text">
@@ -794,7 +800,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://calendar.panjika365.com/', '_blank')">
                             <img src="WhatsApp Image 2025-03-18 at 11.17.18 AM.jpeg" alt="Bengali Panjika App Icon">
                         </div>
                         <div class="carousel-text">
@@ -804,7 +810,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://calendar.panchangam365.com/', '_blank')">
                             <img src="Panjika365 (7).png" alt="Telugu Panchangam App Icon">
                         </div>
                         <div class="carousel-text">
@@ -814,7 +820,7 @@
                     </div>
                     
                     <!-- <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://newstale.beworld.com/', '_blank')">
                             <img src="nt c logo.jpg" alt="App 5 Icon">
                         </div>
                         <div class="carousel-text">
@@ -824,28 +830,28 @@
                     </div> -->
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://jobsafal.com/', '_blank')">
                             <img src="Jobsafal (1).png" alt="App 6 Icon">
                         </div>
                         <div class="carousel-text">
                             <h3>JobSafal</h3>
-                            <p>App Description</p>
+                            <p>Government Exam Learning Platform</p>
                         </div>
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://examsafal.com/', '_blank')">
                             <img src="Exam safal.png" alt="App 7 Icon">
                         </div>
                         <div class="carousel-text">
                             <h3>ExamSafal</h3>
-                            <p>App Description</p>
+                            <p>Competitive Exam Learning Platform</p>
                         </div>
                     </div>
                     
                     <!-- Duplicate set for seamless loop -->
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://mybeworld.com/', '_blank')">
                             <img src="logo.png" alt="BeWorld App Icon">
                         </div>
                         <div class="carousel-text">
@@ -855,7 +861,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://mytelworld.com/', '_blank')">
                             <img src="Component 22 – 1.png" alt="TelWorld App Icon">
                         </div>
                         <div class="carousel-text">
@@ -865,7 +871,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://calendar.panjika365.com/', '_blank')">
                             <img src="2.png" alt="Bengali Panjika App Icon">
                         </div>
                         <div class="carousel-text">
@@ -875,7 +881,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://calendar.panchangam365.com/', '_blank')">
                             <img src="3.png" alt="Telugu Panchangam App Icon">
                         </div>
                         <div class="carousel-text">
@@ -885,7 +891,7 @@
                     </div>
                     
                     <!-- <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://newstale.beworld.com/', '_blank')">
                             <img src="1.png" alt="App 5 Icon">
                         </div>
                         <div class="carousel-text">
@@ -895,22 +901,22 @@
                     </div> -->
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://jobsafal.com/', '_blank')">
                             <img src="Jobsafal (1).png" alt="App 6 Icon">
                         </div>
                         <div class="carousel-text">
                             <h3>JobSafal</h3>
-                            <p>App Description</p>
+                            <p>Government Exam Learning Platform</p>
                         </div>
                     </div>
                     
                     <div class="carousel-item">
-                        <div class="carousel-icon">
+                        <div class="carousel-icon" onclick="window.open('https://examsafal.com/', '_blank')">
                             <img src="Exam safal.png" alt="App 7 Icon">
                         </div>
                         <div class="carousel-text">
                             <h3>ExamSafal</h3>
-                            <p>App Description</p>
+                            <p>Competitive Exam Learning Platform</p>
                         </div>
                     </div>
                 </div>
