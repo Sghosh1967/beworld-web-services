@@ -55,7 +55,7 @@ export default function Header({ showThemeToggle = false, navItems }: HeaderProp
       <nav className="container">
         <div className="logo">
           <Image
-            src="/images/Untitled design.png"
+            src="/images/beworldlogo.png"
             alt="BeWorld Logo"
             width={120}
             height={60}
